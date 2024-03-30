@@ -45,7 +45,8 @@ const Board = ({rows=5, cols=5, chanceLit=0.25}) => {
 
     if(win()) {
         return <div className="Board-message">
-            💡You Win!💡
+            <h1>💡You Win!💡</h1>
+            <h2>Refresh The Page To Start A New Game</h2>
         </div>
     }
 

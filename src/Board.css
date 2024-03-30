@@ -8,3 +8,10 @@
   justify-items: center;
   gap: 15px;
 }
+
+.Board-message {
+  text-align: center;
+  color: white;
+  font-size: larger;
+  margin-top: 50vh;
+}
